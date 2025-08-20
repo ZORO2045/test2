@@ -195,6 +195,19 @@
             transform: translateY(-10px);
             border-color: rgba(108, 77, 246, 0.5);
         }
+        
+        .rom-image-container {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.2);
+    position: relative;
+    min-height: 150px;
+}
 
         .rom-card img {
             width: 300px;
@@ -614,7 +627,9 @@
         <h2>Available ROMs</h2>
         <div class="rom-grid">
             <div class="rom-card">
-                <img src="https://i.ibb.co/Zp8nfQcd/output-onlinepngtools-1.png" alt="Crdroid Logo">
+                <div class="rom-image-container">
+    <img src="https://i.ibb.co/Zp8nfQcd/output-onlinepngtools-1.png" alt="Crdroid Logo">
+</div>
                 <h3>crDroid</h3>
                 <div class="rom-meta">
                     <span>Android 12</span>
