@@ -271,7 +271,6 @@
             border: none;
             cursor: pointer;
             box-shadow: 0 4px 15px rgba(108, 77, 246, 0.4);
-            margin-top: auto;
         }
 
         .btn:hover {
@@ -310,7 +309,7 @@
             text-decoration: none;
             transition: var(--transition);
             border: 1px solid var(--glass-border);
-            max-width: 250px;
+            max-width: 100%;
             text-align: center;
         }
 
@@ -469,13 +468,13 @@
             }
             
             .rom-card .rom-meta span {
-                font-size: 0.7rem;
+                font-size: 0.9rem;
                 padding: 0.2rem 0.6rem;
             }
             
             .btn {
                 padding: 0.7rem 1.5rem;
-                font-size: 0.9rem;
+                font-size: 1rem;
             }
         }
         
@@ -649,9 +648,6 @@
                     <a href="javascript:void(0)" onclick="showVideoPopup('https://www.youtube.com/embed/WBybsdTPqp4');">
     <i class="fab fa-youtube" style="color:#FF0000;"></i> Watch Demo
                     </a>
-                    <a href="javascript:void(0)" onclick="showGalleryPopup(['https://i.ibb.co/5sZm0Q1/screenshot1.jpg', 'https://i.ibb.co/8XjL7J2/screenshot2.jpg', 'https://i.ibb.co/0QZ3w0M/screenshot3.jpg']);">
-    <i class="fas fa-images" style="color:#6C63FF;"></i> View Screenshots
-                    </a>
                 </div>
             </div>
 
@@ -681,14 +677,21 @@
                     <a href="https://xdaforums.com/t/rom-unofficial-12-s-unofficial-e-os-s-lineageos-19-1-based-for-sm-t580-gtaxlwifi-sm-t585-gtaxllte-sm-p580-gtanotexlwifi-and-sm-p585.4696117/" target="_blank">
                         <i class="fas fa-link"></i> View on XDA
                     </a>
-                    <a href="javascript:void(0)" onclick="showGalleryPopup(['https://i.ibb.co/5sZm0Q1/screenshot1.jpg', 'https://i.ibb.co/8XjL7J2/screenshot2.jpg', 'https://i.ibb.co/0QZ3w0M/screenshot3.jpg', 'https://i.ibb.co/7Q7j1yT/screenshot4.jpg']);">
+                    <a href="javascript:void(0)" onclick="showGalleryPopup([
+    '../images/screenshots/e12/1.jpg',
+    '../images/screenshots/e12/2.jpg',
+    '../images/screenshots/e12/3.jpg',
+    '../images/screenshots/e12/4.jpg',
+    '../images/screenshots/e12/5.jpg',
+    '../images/screenshots/e12/6.jpg'
+]);">
     <i class="fas fa-images" style="color:#6C63FF;"></i> View Screenshots
-                    </a>
+</a>
                 </div>
             </div>
-
+            
             <div class="rom-card">
-                <div class="rom-image-container">
+            <div class="rom-image-container">
                     <img src="https://i.ibb.co/nML1JRx1/output-onlinepngtools-3.png" alt="LineageOS Logo">
                 </div>
                 <h3>LineageOS 19.1</h3>
@@ -715,9 +718,8 @@
                     </a>
                     <a href="https://xdaforums.com/t/lineageos-19-1-for-sm-t580-gtaxlwifi-sm-t585-gtaxllte-sm-p580-gtanotexlwifi-and-sm-p585-gtanotexllte.4432957/" target="_blank">
                         <i class="fas fa-link"></i> View on XDA
-                    </a>
-                    <a href="https://youtu.be/tEB2Ht9iKko?feature=shared" target="_blank">
-                        <i class="fab fa-youtube"></i> Watch Demo
+                    <a href="javascript:void(0)" onclick="showVideoPopup('https://www.youtube.com/embed/tEB2Ht9iKko');">
+    <i class="fab fa-youtube" style="color:#FF0000;"></i> Watch Demo
                     </a>
                 </div>
             </div>
@@ -725,7 +727,7 @@
             <div class="rom-card">
                 <div class="rom-image-container">
                     <img src="https://i.ibb.co/PGs6jjsN/IMG-20250529-211401-704.jpg" alt="Legacy Logo">
-                </div>
+                    </div>
                 <h3>OneUI Legacy</h3>
                 <div class="rom-meta">
                     <span>Android 12</span>
@@ -778,9 +780,16 @@
                     <a href="https://t.me/Oneui_Legacy/5" target="_blank">
                         <i class="fas fa-exclamation-circle"></i> Important Notes
                     </a>
-                    <a href="javascript:void(0)" onclick="showGalleryPopup(['https://i.ibb.co/5sZm0Q1/screenshot1.jpg', 'https://i.ibb.co/8XjL7J2/screenshot2.jpg', 'https://i.ibb.co/0QZ3w0M/screenshot3.jpg', 'https://i.ibb.co/7Q7j1yT/screenshot4.jpg', 'https://i.ibb.co/0jR1y1Q/screenshot5.jpg']);">
+                    <a href="javascript:void(0)" onclick="showGalleryPopup([
+    '../images/screenshots/legacy/1.jpg',
+    '../images/screenshots/legacy/2.jpg',
+    '../images/screenshots/legacy/3.jpg',
+    '../images/screenshots/legacy/4.jpg',
+    '../images/screenshots/legacy/5.jpg',
+    '../images/screenshots/legacy/6.jpg'
+]);">
     <i class="fas fa-images" style="color:#6C63FF;"></i> View Screenshots
-                    </a>
+</a>
                 </div>
             </div>
         </div>
